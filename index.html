@@ -11,27 +11,10 @@
 <body>
 
 <div class="container">
-  <h2>BiPar</h2>
-  <p>Escolha um ...</p>  
-  <input class="form-control" id="myInput" type="text" placeholder="Search..">
-  <br>
-  <ul class="list-group" id="myList">
-    <li class="list-group-item">First item</li>
-    <li class="list-group-item">Second item</li>
-    <li class="list-group-item">Third item</li>
-    <li class="list-group-item">Fourth</li>
-  </ul>  
-</div>
-
-<script>
-$(document).ready(function(){
-  $("#myInput").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#myList li").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
-});
+ <div class="jumbotron">
+		  <h1>Tutorial</h1>      
+		  <p><a href="posts.html">search</a></p>
+		</div>
 </script>
 
 </body>
